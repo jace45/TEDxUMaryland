@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<style type="text/css">
+		body{
+			padding-top: 50px;
+      margin-left: -10px;
+
+		}
+    #ted {
+      color: red;
+    }
+    .row {
+      top: 5;
+      left: 5;
+    }
+    /* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+	</style>
+
+</head>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./TEDum.html">UMaryland Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#">Attend</a></li>
+        <li><a href="./eboard.html">E-Board</a></li>
+        <li><a href="#">Apply</a></li>
+        <li><a href="#">Sponsors</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<body>
+ <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="McKeldin.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to <font color="red">TED<sup>x</sup></font> UMaryland
+              </h1>
+              <p>Technology.Entertainment.Design.<br> x = independentaly organized event</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="daaa.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Proud past, Fearless future</h1>
+              <p>Join us as we show our proud past, fearless future through Innovation, Sustainability, Globalization, Entrepreneurship, and Diversity. If you are interested in speaking please apply below.
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Apply Here</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="Colony.png" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Come to our First <font color="red">TED<sup>x</sup></font> Talk!</h1>
+              <p>Our first event will be held at the Stamp Student Union in the Colony Ballroom</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Attend Now!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2><font color="red">TED<sup>x</sup></font> UMaryland</h2>
+            <p>Under the moniker "ideas worth spreading", TED has branched out and created <font color="red">TED<sup>x</sup></font>, the "x" meaning an independently organized TED event. <font color="red">TED<sup>x</sup></font> is a program of local, self-organized events that bring people together to share a TED-like experience. <font color="red">TED<sup>x</sup></font> <b>UMaryland</b> strives for that TED-like experience while highlighting Maryland's Proud Past, Fearless Future. TED Talks video and live speakers will combine to spark deep discussion and connection all across our campus.<br>
+
+            This independent <font color="red">TED<sup>x</sup></font> event is operated under license from TED.
+            </p>
+          </div>
+          <div class="col-md-2 col-md-offset-2">
+            <h2> Contact Us</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
